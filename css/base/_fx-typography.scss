@@ -25,28 +25,28 @@ a{
 
 h1{
   font: $fx-text-h1;
-  color: $fx-cool-blue;
+  color: #003b43;
 }
 
 h2{
   font: $fx-text-h2;
-  color: desaturate( $fx-cool-blue, 30% );
+  color: desaturate( #003b43, 30% );
 }
 
 h3{
   font: $fx-text-h3;
-  color: desaturate( $fx-cool-blue, 50% );
+  color: desaturate( #003b43, 50% );
 }
 
 h4{
   font: $fx-text-h4;
-  color: desaturate( $fx-cool-blue, 70% );
+  color: desaturate( #003b43, 70% );
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small{
-  font-family: Roboto;
+  //font-family: Roboto;
   font-weight: 700;
-  color: $fx-cool-blue;
+  color: #003b43;
   text-transform: uppercase;
   font-size: 12px;
 }
